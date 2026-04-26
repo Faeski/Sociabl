@@ -3,6 +3,9 @@ dashboard.html
 
 # Private documentation (local only, not published)
 docs/
+# …except inside nested product projects (discovery artifacts should be tracked)
+!friend-companion/docs/
+!friend-companion/docs/**
 
 # Working/reference documents (not part of the package)
 *.pdf
